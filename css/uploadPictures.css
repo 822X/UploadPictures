@@ -1,0 +1,54 @@
+#img-container {
+    margin: 0.1875rem;
+}
+#img-container:after {
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    clear: both;
+}
+.yauoi-submit {
+    border: 0;
+    margin-left: 0.1875rem;
+}
+.img-item {
+    position: relative;
+    float: left;
+    margin-right: 0.1875rem;
+    margin-bottom: 0.1875rem;
+    height: 2.34375rem;
+    width: 2.34375rem;
+    box-sizing: border-box;
+}
+.img-thumb {
+    border: 1px solid #000;
+}
+.thumb-icon {
+    width: 100%;
+    height: 100%;
+}
+.img-up-add {
+    display: table;
+    border: 1px dashed #E0E0E0;
+}
+.img-add-icon {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.img-remove {
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: -0.1872rem;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.35rem;
+    overflow: hidden;
+}
+#img-file-input {
+    display: none;
+}
